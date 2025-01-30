@@ -45,34 +45,34 @@ values (5, '8 Mile', '06-11-2002');
 
 
 insert into track_list(id, name, duration, id_of_album_title)
-values (1, 'Moskau', '4:16', 4);
+values (1, 'Moskau', '256', 4);
 
 insert into track_list(id, name, duration, id_of_album_title)
-values (2, 'Ohne Dich', '4:31', 4);
+values (2, 'Ohne Dich', '271', 4);
 
 insert into track_list(id, name, duration, id_of_album_title)
-values (3, 'Mein Teil', '4:32', 4);
+values (3, 'Mein Teil', '272', 4);
 
 insert into track_list(id, name, duration, id_of_album_title)
-values (4, 'Letters', '3:30', 2);
+values (4, 'Letters', '210', 2);
 
 insert into track_list(id, name, duration, id_of_album_title)
-values (5, 'Bad weather', '4:30', 2);
+values (5, 'Bad weather', '270', 2);
 
 insert into track_list(id, name, duration, id_of_album_title)
-values (7, 'Behemoth', '2:34', 3);
+values (7, 'Behemoth', '154', 3);
 
 insert into track_list(id, name, duration, id_of_album_title)
-values (8, 'Just like my father', '2:37', 3);
+values (8, 'Just like my father', '157', 3);
 
 insert into track_list(id, name, duration, id_of_album_title)
-values (9, 'Just like my father', '2:37', 3);
+values (9, 'Just like my father', '157', 3);
 
 insert into track_list(id, name, duration, id_of_album_title)
-values (10, 'Girl from St. Petersburg', '3:14', 1);
+values (10, 'Girl from St. Petersburg', '194', 1);
 
 insert into track_list(id, name, duration, id_of_album_title)
-values (11, '8 Mile', '5:59', 5);
+values (11, '8 Mile', '359', 5);
 
 
 

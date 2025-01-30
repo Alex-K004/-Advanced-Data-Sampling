@@ -1,8 +1,11 @@
-select name , max (duration) from track_list;
+SELECT track_list, duration
+FROM name
+ORDER BY duration DESC
+LIMIT 1;
 
 
 select name , duration from track_list
-where duration > 3.5;
+where duration > 210;
 
 
 select name, year from collection 
@@ -10,10 +13,16 @@ where year between '2019-01-01' and '2020-12-31';
 order by name, year
 
 select nickname from executor
-where nickname not like "% %";
+where nickname not like '% %';
 
-select name from track_list
-where name like "% мой %";
+SELECT track_list, name
+FROM name
+WHERE name ILIKE 'my %'  
+   OR name ILIKE '% my'  
+   OR name ILIKE '% my %' 
+   OR name ILIKE 'my';
+
+
 
 select musical_genre_id , count(singer_id) from executor_musical_genre
 group by musical_genre_id 
@@ -21,7 +30,7 @@ group by musical_genre_id
 
 select t.name, year from track_list t
 left join albums_title a on s.id_of_album_title  = a.id
-where year not like "%2020%";
+where year not like '%2020%';
 
 
 select a.name, avg(duration) from albums_title at
