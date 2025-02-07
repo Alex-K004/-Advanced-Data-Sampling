@@ -77,16 +77,16 @@ values (11, '8 Mile', '359', 5);
 
 
 insert into collection(id, name, year)
-value(1, '8 Mile: Music from and Inspired by the Motion Picture', '29-10-2002');
+values (1, '8 Mile: Music from and Inspired by the Motion Picture', '29-10-2002');
 
 insert into collection(id, name, year)
-value(2, 'Curtain Call: The Hits', '06-12-2005');
+values (2, 'Curtain Call: The Hits', '06-12-2005');
 
 insert into collection(id, name, year)
-values(3, 'Stone and shark', '12-09-2021');
+values (3, 'Stone and shark', '12-09-2021');
 
 insert into collection(id, name, year)
-values(4, 'Soul of all songs', '30-10-2022');
+values (4, 'Soul of all songs', '30-10-2022');
 
 
 

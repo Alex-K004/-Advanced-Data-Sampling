@@ -30,7 +30,6 @@ create table if not exists executor_musical_genre (
 create table if not exists executor_album_title (
 	executor_id integer not null references executor(id),
 	album_title_id integer not null references album_title(id),
-	track_list_id integer not null references track_list(id),
 	constraint PRk primary key (executor_id, album_title_id) 
 );
 
